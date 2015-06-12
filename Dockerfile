@@ -5,5 +5,5 @@ ADD httpd.conf /etc/apache2/sites-enabled/000-default.conf
 
 RUN chmod -R 777 /var/www/html/app/cache
 RUN chmod -R 777 /var/www/html/app/logs
-RUN cd /var/www/html
-RUN php app/console cache:clear
+#RUN cd /var/www/html
+#RUN php app/console cache:clear
