@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: /home/httpd/html/symfony2-daocloud/src/my_project_name/app/config/routing_dev.yml
