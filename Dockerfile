@@ -54,5 +54,5 @@ RUN chmod -R 777 /var/www/html/app/logs
 #RUN cd /var/www/html
 #RUN php app/console cache:clear
 
-RUN tail -F /var/log/apache2/* &
+#RUN tail -F /var/log/apache2/* &
 RUN tail -F /var/www/html/app/logs/* &
